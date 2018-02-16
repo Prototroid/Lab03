@@ -1,0 +1,55 @@
+ 
+<html>
+	<head>
+		<link href="Exercise_4.css"
+            rel="stylesheet"
+			type="text/css"/>
+
+		<!-- Javascript files -->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"> </script>
+		<script src="Exercise_4.js"></script>
+
+	</head>
+
+    <body>
+		
+
+		<!-- Header -->
+		<h2>
+			<marquee behavior="alternate" direction="right" scrollamount="10">DO YOU KNOW DA WAY?!</marquee> <br>
+			<marquee behavior="alternate" direction="right" scrollamount="30"> <img src="https://vignette.wikia.nocookie.net/sonic-boom/images/7/72/Knuckles.png/revision/latest?cb=20180111175053" hspace="10" width="100"  alt="Ugandan Knuckles" /></marquee><br>
+			<marquee behavior="alternate" direction="left" scrollamount="10">...YOU DUNNO DA WAY!</marquee> <br>
+		</h2>
+
+		
+		<!-- Dummy text -->
+		<div class="a", id="a">
+			<p class="c", id="c"> Spit on the non-believer! </p>
+			<p class="d", id="d"> No! They are getting away! </p>
+		</div>
+		<!-- <p style="background-color:red"> This text will have a red background </p> -->
+		 
+
+		<!-- Text fields -->
+		<form action="javascript:editStyle();">
+			<p class="a">
+				<label class="form-control" for="border"> Border: </label> </p>
+				<p class="b">	
+					r <input type="text" class="form-control" id="r1" placeholder="0-255" name="r1" required><br>
+					g <input type="text" class="form-control" id="g1" placeholder="0-255" name="g1" required><br>
+					b <input type="text" class="form-control" id="b1" placeholder="0-255" name="b1" required><br>
+					width <input type="text" class="form-control" id="width" placeholder="0" name="width" required><br>
+
+			<p class="a">
+				<label class=class="form-control" for="background-color"> Background color: </label> </p>
+				<p class="b">	
+					r <input type="text" class="form-control" id="r2" placeholder="0-255" name="r2" required><br>
+					g <input type="text" class="form-control" id="g2" placeholder="0-255" name="g2" required><br>
+					b <input type="text" class="form-control" id="b2" placeholder="0-255" name="b2" required><br>
+				</p>
+				
+			<button type="submit" onclick ="editStyle()" class="btn btn-primary" name="submit"> Change border and background </button>
+	  	</form>
+		
+    </body>
+</html>
