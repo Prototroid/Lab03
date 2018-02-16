@@ -1,0 +1,84 @@
+/* Image expanding: https://designshack.net/articles/css/joshuajohnson-2/ */
+h2
+{
+    /* background-color: red; */
+    color: white;
+    font-family: Tw Cen MT;
+    font-size: 40pt;
+}
+
+img
+{
+    border-radius: 50%;
+
+    -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+img:hover
+{
+    width: 210;
+    height: 210;
+}
+
+p
+{
+    /* background-color: red; */
+    color: white;
+    font-family: Tw Cen MT;
+    font-size: 5pt;
+}
+p.a
+{
+    /* background-color: red; */
+    color: white;
+    font-family: Tw Cen MT;
+    font-size: 20pt;
+}
+p.b
+{
+    /* background-color: red; */
+    color: white;
+    font-family: Tw Cen MT;
+    font-size: 14pt;
+}
+
+a
+{
+    background-color: rgb(189, 4, 4);
+    color: white;
+    font-family: Tw Cen MT;
+    font-size: 14pt;
+}
+
+a:hover
+{
+    background-color: white;
+    color: rgb(189, 4, 4);
+    font-family: Tw Cen MT;
+    font-size: 14pt;
+}
+
+body
+{
+    background-color: white;
+    /* background-image: url(http://nintendochitchat.com/wp-content/uploads/2017/08/Metroid-Samus-Returns.png); */
+    background-image: url(https://orig00.deviantart.net/d8e3/f/2018/009/8/8/ugandan_knuckles_by_zarcrash-dbzgfu9.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/* .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  } */
